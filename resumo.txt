@@ -1,0 +1,7 @@
+yarn add express
+
+yarn add nodemon -D
+
+yarn add mongoose
+
+yarnadd axios;
