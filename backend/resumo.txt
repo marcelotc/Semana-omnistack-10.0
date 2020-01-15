@@ -4,4 +4,6 @@ yarn add nodemon -D
 
 yarn add mongoose
 
-yarnadd axios;
+yarn add axios
+
+yarn add cors
