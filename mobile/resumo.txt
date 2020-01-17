@@ -1,0 +1,7 @@
+yarn add react-navigation
+
+yarn add react-navigation-stack @react-native-community/masked-view
+
+https://github.com/react-native-community/react-native-maps
+
+yarn add expo-location

@@ -1,29 +1,15 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Text,
-} from 'react-native';
+import { StatusBar } from 'react-native';
 
+import Routes from './src/routes';
 
-function App(){
-  return(
-    <View>
-      <Text>Hello World!</Text>
-    </View>
+function App() {
+  return (
+    <>
+      <StatusBar barStyle="light-content" backgroundColor="#7d40e7"/>
+      <Routes />
+    </>
   )
 }
-
-const styles = StyleSheet.create({
-  
-});
 
 export default App;
